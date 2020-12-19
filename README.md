@@ -14,6 +14,7 @@ The Beginner's Guide, Stanley Parable'ın yazarı Davey Wreden'den öyküsel bir
 
 ## :clipboard: Kurulum
 İndirdiğiniz dosyadaki klasörü, oyunun kurulu olduğu klasörün içine atın
+
 (Örnek olarak: `C:\Program Files (x86)\The Beginner's Guide`)
 
 ## :pushpin: Değişim Günlüğü
