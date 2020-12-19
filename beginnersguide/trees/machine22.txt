@@ -1,0 +1,47 @@
+#modern
+
+talk1
+{
+	[color ffffff] Opt1: MÜRİTLERİM! [wait 2 sec] [play talk2]
+	[color ffffff] Opt2: DOSTLARIM! [wait 2 sec] [play talk2]
+}
+
+talk2
+{
+	Opt1: Kötü haberleri iletmek bana düşüyor. [wait 2 sec] [play talk3]
+	Opt2: Can sıkıcı bir haberim var. [wait 2 sec] [play talk3]
+}
+
+talk3
+{
+	Opt1: Makine bizden özür dilemeyecek. [wait 2 sec] [play talk4a]
+	Opt2: Makine bilerek bize zarar verdiğini kabul etmeyi reddetiyor. [wait 2 sec] [play talk4a]
+}
+
+talk4a
+{
+	Opt1: Ama bu önemli değil! Biz onun düşündüğünden daha güçlüyüz. [wait 2 sec] [play talk4b]
+	Opt2: O olmadan yaşamanın bir yolunu bulacağız! Onun oyunlarına ihtiyacımız yok. [wait 2 sec] [play talk4b]
+}
+
+talk4b
+{
+	Opt1: Ondan öcümüzü alalım! [wait 2 sec] [play talk9]
+	Opt2: Ona bir başarısızlık olmadığımızı gösterelim! [wait 2 sec] [play talk9]
+}
+
+talk9
+{
+	Opt1: Beni takip edin! Makineyi yok edeceğiz! [wait 4 sec] [play talk10]
+	Opt2: Beni takip edin! Makinenin ürettiği her şeyi yok edeceğiz! [wait 4 sec] [play talk10]
+}
+
+talk10
+{
+	[clear]
+	[fire begin_theater trigger]
+	[wait 1 sec]
+}
+
+
+[talk1]

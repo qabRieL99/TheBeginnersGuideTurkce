@@ -1,0 +1,17 @@
+#modern
+
+Go
+{
+	[color 00e53b]
+...
+	[wait 2 sec]
+Soru:
+	[wait 3 sec]
+Bundan keyif alıyor musun?
+	[wait 0.5 sec]
+[fire cutoff trigger]
+}
+
+
+
+[Go]

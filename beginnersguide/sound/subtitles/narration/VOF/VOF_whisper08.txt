@@ -1,0 +1,5 @@
+0 1.5 Burada biraz duralım. 
+1.8 5.45 Az önce deneyimlediğin olay, ışına girip ardından ölmek,
+5.57 9.97 büyük ihtimalle bu haritayı tasarlarken Coda'nın aklında olan şeydi.
+10.59 14.57 Ama haritayı derleyip oynadığında, bir şeyler ters gidiyor, bir yerde hata oluyor,
+14.98 16.55 ve onun yerine bu olay gerçekleşiyor.

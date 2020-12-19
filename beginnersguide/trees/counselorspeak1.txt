@@ -1,0 +1,76 @@
+#modern
+
+counselor1
+{
+	[color f8fc25] Opt1: Anahtar bu: çaba sarf etmeden nasıl başarırım. [wait 2 sec] [play counselor2]
+	[color 585a58] Opt2: İşe gelirken yaşlı birine topluma katkı sağlamasını söyledim. [wait 2 sec] [play counselor2]
+	[color 585a58] Opt3: Çocuklar hayallerini takip etmemeli. [wait 2 sec] [play counselor2]
+}
+
+
+
+
+counselor2
+{
+	[color f8fc25] Opt1: Size şu an söyleyeyim: Eğer çaba sarf ediyorsanız, o halde doğru cevap o değil. [wait 2 sec] [play counselor3]
+	[color 585a58] Opt2: Seni hâlâ seviyorum, sadece senin yüzünden soğuk hissediyorum. [wait 2 sec] [play counselor3]
+	[color 585a58] Opt3: Yalnız olmak korkunç olmalı. [wait 2 sec] [play counselor3]
+}
+
+counselor3
+{
+	[color 585a58] Opt1: Allah'a şükür hepiniz beni bilge ve zeki biri olarak algılıyorsunuz!  [wait 2 sec] [play counselor4]
+	[color 585a58] Opt2: İçmek hayatıma zarar vermiyor. [wait 2 sec] [play counselor4]
+	[color f8fc25] Opt3: Hayatında doğru çözümleri bulmak için kendinize işkence ediyorsanız, yanlış yapıyorsunuz. [wait 2 sec] [play counselor4]
+}
+
+counselor4
+{
+	[color 585a58] Opt1: Beni sevene kadar mutlu olamayacağını anlıyor musun? Hayatında seni bekleyen bu. [wait 2 sec] [play counselor5]
+	[color f8fc25] Opt2: Sadece bir şeyin peşine düşün: en kolayı, en çabuğudur. [wait 2 sec] [play counselor5]
+	[color 585a58] Opt3: Iyy. Kist çıkıyor. İğrenç. [wait 2 sec] [play counselor5]
+}
+
+
+counselor5
+{
+	[color 585a58] Opt1: HAHAHA DALGA GEÇİYORUM. [wait 2 sec] [play counselor7]
+	[color 585a58] Opt2: Bundan sonra uyuşturucu çekmek isteyen var mı? [wait 2 sec] [play counselor7]
+	[color f8fc25] Opt3: Doğru diye bir şey yok. Yol yok. [wait 2 sec] [play counselor7]
+}
+
+
+
+counselor7
+{
+	[color 585a58] Opt1: Peki ya iyi bir öğretmen değilsem...  [wait 2 sec] [play counselor9]
+	[color f8fc25] Opt2: En kolayını yapın. En basitini yapın. Doğru olanı hissedin. [wait 2 sec] [play counselor9]
+	[color 585a58] Opt3: HA SİKTİR gençler odanın arkasından bir şey geliyor! DİKKAT EDİN! [wait 2 sec] [play counselor9]
+}
+
+counselor9
+{
+	[color f8fc25] Opt1: Hiçbir şey. Hiç kimse. [wait 1 sec] [fire ending trigger] [wait 2 sec] [play counselor10]
+	[color 585a58] Opt2: Peşinizden geliyor! Sizi yok edecek! [wait 1 sec] [fire ending trigger] [wait 2 sec] [play counselor10]
+	[color 585a58] Opt3: Herkes kaçsın! KAÇIN!!! [wait 1 sec] [fire ending trigger] [wait 2 sec] [play counselor10]
+}
+
+counselor10
+{
+	[color f8fc25] Opt1: Mükemmellik. [play wait]
+	[color f8fc25] Opt2: Mükemmellik. [play wait] 
+	[color f8fc25] Opt3: Mükemmellik. [play wait]
+}
+
+wait
+{
+	
+	[wait 1 sec]
+}
+
+[counselor1]
+
+
+
+
+

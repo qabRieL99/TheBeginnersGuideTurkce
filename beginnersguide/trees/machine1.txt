@@ -1,0 +1,44 @@
+#modern
+
+Text1
+{
+	[color 747774]
+	[fire guardtalk1 trigger]Hanımefendi! Güvenli bir şekilde vardığınıza sevindim.
+		[wait 2 sec]
+	Makine'yi yakaladık, şu an sizi bekliyor.
+		[wait 2 sec]
+	Sorguya istediğiniz zaman başlayabilirsiniz.
+		[wait 2 sec]
+	[play Response1]
+	
+}
+
+Response1
+{
+	[color ffffff] Opt1: Hızlıca bitirme niyetindeyim. [Play text2]
+	[color ffffff] Opt2: Sessizce bitirme niyetindeyim. [Play text2]
+	[color ffffff] Opt3: Acımasızca bitirme niyetindeyim. [Play text2]
+}
+
+text2
+{
+	[wait 2 sec]
+[fire guardtalk2 trigger]Çok güzel.
+	[wait 2 sec]
+Haberiniz olsun, birisi basını çağırmış, bu seferkinde dikkat çekebiliriz.
+	[wait 3 sec]
+Ayrıca, makineyle ilgili bilmeniz gereken bir şey daha:
+	[wait 2 sec]
+Kendine Coda diyor.
+	[wait 4 sec]
+[fire door_open trigger]
+	[wait 1 sec]
+[clear]
+	[wait 1 sec]
+}
+
+
+
+
+
+[Text1]

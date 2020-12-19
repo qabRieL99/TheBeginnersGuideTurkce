@@ -1,0 +1,16 @@
+#modern
+
+go
+{
+	[color f85078]
+Hayır, hayır, bu içten değil...
+	[wait 1 sec]
+}
+
+[go]
+
+
+
+
+
+

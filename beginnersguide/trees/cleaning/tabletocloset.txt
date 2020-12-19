@@ -1,0 +1,91 @@
+#modern
+
+Go
+{
+	[color ffffff] 
+Opt1: Ev temizlemeği çok zor! Nasıl yapıyorsun bunu? [wait 2 sec] [play response1]
+Opt2: Bütün evlerin temizliği bu kadar kolay mı? [wait 2 sec] [play response2]
+Opt3: Bu ev işleri hiç bitiyor mu? [wait 2 sec] [play response3]
+}
+
+response1
+{
+	[color 00e53b] 
+Tatlım, sana bir şey anlatayım.
+	[wait 2 sec]
+Evini temizlemek kendini temizlemek kadar zordur.
+	[wait 2 sec]
+İşi zor buluyorsan, belki de işe gelmeden önce yapman gereken küçük ev temizliği vardır.
+	[wait 4 sec]
+Ha! Yine öğüt veriyorum. Tabii ki vereceğim.
+	[wait 3 sec]
+	[fire VO_5delay trigger]
+Bütün o saçmalığa kafanı takma, şimdilik yatak odasındaki kilimi düzelt.
+	[fire closet_continue2 enable]	
+	[wait 0.1 sec]
+	[fire closet_reset trigger]
+}
+
+
+response2
+{
+	[color 00e53b] 
+Tatlım, sana bir şey anlatayım.
+	[wait 2 sec]
+Hayatın boyunca, bir sürü ev temizleyeceksin.
+	[wait 2 sec]
+Ve onların içinden, birkaçı gerçekten harika, güzel tecrübeler olarak kalacak.
+	[wait 4 sec]
+Ve bunlardan hiçbiri kolay olanlar olmayacak.
+	[wait 3 sec]
+	[fire VO_5delay trigger]
+Yatak odasındaki kilimi düzeltirken düşüneceğin birkaç şey sana.
+	[fire closet_continue2 enable]
+	[wait 0.1 sec]
+	[fire closet_reset trigger]
+}
+
+
+response3
+{
+	[color 00e53b] 
+Tatlım, sana bir şey anlatayım.
+	[wait 2 sec]
+Ne iş yaparsan yap, o işin erbabı olmalısın.
+	[wait 2 sec]
+Yoksa, o senin erbabın olur.
+	[wait 2 sec]
+Eh, neden elimizdeki işe bakıp gelecek işleri gelecek sana saklamıyoruz.
+	[wait 2 sec]
+Günümüzdeki sen yatak odasındaki kilimi düzeltmek istiyor, ister inan ister inanma.
+	[wait 2 sec]
+	[fire VO_5delay trigger]
+Bana güven bu konuda.
+	[fire closet_continue2 enable]
+	[wait 0.1 sec]
+	[fire closet_reset trigger]
+}
+
+[Go]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,5 @@
+0 4.88 Ve adil olmak gerekirse, oynanılabilir olması için değişiklik gerektiren ilk oyun bu değil.
+5.37 11.55 Tıpkı ev temizleme oyunu gibi, o oyun temizleme işlerini döngüye sokuyordu ve evi sonsuza dek temizliyordun,
+12.2 15.67 evden çıkıp oyunu bitirebilmen için, o özelliği devre dışı bırakmak zorundaydım.
+16.44 20.02 Ama o oyunda bir fikir vardı, iletişim kurmaya çalışıyordu,
+20.91 23.62 görünmez labirentin arkasındaki derin fikir ne?

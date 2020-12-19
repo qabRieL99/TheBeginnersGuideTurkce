@@ -1,0 +1,52 @@
+#modern
+
+game1
+{
+	[color f85078] 
+Bu bir insan mı? Ne kadar güzel!
+	[wait 2 sec]
+Biriyle konuşalı bayağı uzun zaman oldu.
+	[wait 2 sec]
+...
+	[wait 2 sec]
+Sorun ne? Kaybolmuşa benziyorsun.
+	[wait 4 sec]
+[play dialogue1]
+}
+
+dialogue1
+{
+	[color ffffff]
+	Opt1: Fikir üretemiyorum artık. [fire pres4a enable] [fire block3fadeout trigger] [play transition1]
+	Opt2: Üretmeye çalıştığımda boş hissediyorum. [fire pres4b enable] [fire block3fadeout trigger] [play transition2]
+	Opt3: Çalışmama verecek bir şeyim kalmadı. [fire pres4c enable] [fire block3fadeout trigger] [play transition3]
+}
+
+transition1
+{
+	[wait 3 sec]
+[fire VO_1 start]
+	[wait 1 sec]
+[fire presence2a enable]
+	[wait 1 sec]
+}
+
+transition2
+{
+	[wait 3 sec]
+[fire VO_1 start]
+	[wait 1 sec]
+[fire presence2a enable]
+	[wait 1 sec]
+}
+
+transition3
+{
+	[wait 3 sec]
+[fire VO_1 start]
+	[wait 1 sec]
+[fire presence2a enable]
+	[wait 1 sec]
+}
+
+[game1]

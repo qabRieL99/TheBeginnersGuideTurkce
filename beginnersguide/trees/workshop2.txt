@@ -1,0 +1,85 @@
+#modern
+
+Go
+{
+	[color f8fc25] 
+	[fire lecture_turn trigger]Bugün buraya neden geldiniz?
+		[wait 3 sec]
+	[fire lecture_turn2 trigger]Hayatınızı geliştirmek için mi?
+		[wait 3 sec]
+	[fire lecture_turn trigger]Daha iyi bir iş bulmak için mi?
+		[wait 3 sec]
+	[fire lecture_turn2 trigger]İlişkilerinizi daha anlamlı kılmak için mi?
+		[wait 2 sec]
+	[fire lecture_turn trigger]Hayır.
+		[wait 3 sec]
+	[fire lecture_turn2 trigger]Buraya MÜKEMMEL olmaya geldiniz.
+		[wait 4 sec]
+[fire teleport1 enable][fire lecture_turn trigger]Bu atölye size nasıl mükemmel olunacağını öğretecek. 
+		[wait 3 sec]
+	[fire lecture_turn2 trigger]Dostlarınızın, hayatınızdaki insanların size bakıp şunu düşünmesini istiyorum:
+		[wait 3 sec]
+	[fire lecture_turn trigger]"vay be, bu kişi benden daha iyi bir insan."
+		[wait 3 sec]
+	[fire lecture_turn2 trigger]Şu an, hayatınızda kimin hakkında o şekilde düşünüyorsunuz?
+		[wait 3 sec]
+	[fire lecture_turn trigger]Sizi kendinizden tiksinmenizi sağlayacak kadar kendini geliştirmiş kimi tanıyorsunuz?
+		[wait 4 sec]
+	[fire lecture_turn2 trigger]O kişiyle karşılaştırınca, kendinizi gereksiz hissediyor musunuz?
+		[wait 2 sec]
+	[fire lecture_turn trigger]Bencil?
+		[wait 1 sec]
+	[fire lecture_turn2 trigger]Nankör?
+		[wait 1 sec]
+	[fire lecture_turn trigger]Sizi o kişiye dönüştürme niyetindeyim.
+		[wait 2 sec]
+	[fire telejitter enable]
+		[wait 1 sec]
+[fire teleport2 enable][fire lecture_turn2 trigger]Mükemmellik uzanabileceğiniz kadar uzağınızda.
+		[wait 4 sec]
+	[fire lecture_turn trigger]Ve burada asıl soru nasıl yapacağımız değil, bunu çaba harcamadan nasıl yapacağımız.
+		[wait 4 sec]
+	[fire lecture_turn2 trigger]Bu kolay.
+		[wait 2 sec]
+	[fire lecture_turn trigger]Çok kolay.
+		[wait 2 sec]
+	[fire lecture_turn2 trigger]Çok kolay.
+		[wait 2 sec]
+	[fire lecture_turn trigger]Mükemmel olmak kolay.
+		[wait 4 sec]
+[fire transition trigger]
+}
+
+[Go]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

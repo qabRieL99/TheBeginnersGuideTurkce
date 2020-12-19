@@ -1,0 +1,65 @@
+#modern
+
+Go
+{
+	[color 00e53b]
+	Amanın! Geldiğine o kadar sevindim ki!
+		[wait 3 sec]
+	Evi tek başıma temizlemek zorunda kalabileceğimi düşünmüştüm. Ve bu çok berbat olurdu.
+		[wait 4 sec]
+	Yalnız kişilerin dağınık evi olduğunu herkes bilir!
+		[wait 3 sec]
+	[play response1]
+}
+
+response1
+{
+[color ffffff]
+	Opt1: Merak etme, bu kadar güzel bir yerde bütün bir geceyi mutlulukla geçiririm. [wait 2 sec] [play cleaner01]
+	Opt2: Ve dağınık evler... evsizlik yapar! [wait 2 sec] [play cleaner02]
+	Opt3: Bütün evi temizliyor muyuz? [wait 2 sec] [play cleaner03]
+}
+
+cleaner01
+{
+	[color 00e53b]
+ Eh şimdi biraz aceleci davrandın, öyle değil mi?
+	[wait 3 sec]
+Neden temizlemeye başlamıyoruz, böylelikle bütün gece durabilecek misin karar verirsin.
+	[wait 2 sec]
+Ben burayı halledeyim, sen de bu arada masayı temizler misin?
+	[wait 1 sec]
+	[fire table_reset trigger]
+}
+
+
+cleaner02
+{
+	[color 00e53b]
+Ha!
+	[wait 1 sec]
+Bir şey bana bu işi seninle yapmak eğlenceli olacakmış diyor.
+	[wait 2 sec]
+Eh, burası kendi kendine temizlemeyecek di mi yani. Ben burayı temizleyeyim, sen de bu arada masayı temizler misin lütfen?
+	[wait 2 sec]
+	[fire table_reset trigger]
+}
+
+
+cleaner03
+{
+	[color 00e53b]
+Aynen öyle, küçüğüm.
+	[wait 2 sec]
+Oh meraklanma ama, bu dağınıklığı hemencecik halledeceğiz!
+	[wait 2 sec]
+Daha fazla olsaydı keşke diyeceğine söz veriyorum.
+	[wait 2 sec]
+Ben burayı halledeyim, sen de bu arada masayı temizler misin lütfen?
+	[wait 2 sec]
+	[fire table_reset trigger]
+}
+
+
+
+[Go]

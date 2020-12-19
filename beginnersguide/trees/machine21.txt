@@ -1,0 +1,87 @@
+#modern
+
+start
+{
+	[color ffffff] Opt1: Durdun. [wait 1 sec] [fire machine_music_start trigger] [wait 2 sec] [play calledcoda]
+}
+
+calledcoda
+{
+	[color ffffff]
+	Opt1: Bizi beslemeyi bıraktın. [wait 2 sec]  [play dontcare]
+	Opt2: Çalışmaların bizi hayatta tutuyordu. [wait 2 sec]  [play dontcare]
+	Opt3: Çalışmaların bizi sağlıklı tutuyordu. [wait 2 sec] [play dontcare]
+}
+
+dontcare
+{
+	Opt1: Dışardaki insanlar, onlara ne acılar yaşattığını hayal edebiliyor musun? [fire machine2_delay trigger] [wait 2 sec]  [play lostthatright]
+	Opt2: Her günü geçirebilmemizin tek sebebi senin ürettiklerindi. [fire machine2_delay trigger] [wait 2 sec]  [play allisee]
+	Opt3: Nasıl olur da bu işi yapacağına dair sana güvenmeye devam edebiliriz? [fire machine2_delay trigger] [wait 2 sec] [play speaktothem]
+}
+
+lostthatright
+{
+	Opt1: Olması gereken şu: dışarı çıkıp onlardan özür dilemelisin. [wait 6 sec]  [play talk]
+	Opt2: İnsanlara, onların acı çekmelerine izin verdiğini kabul etmelisin. [wait 6 sec]  [play talk]
+	Opt3: Çok yalnızdım. [wait 3 sec]  [play alone]
+}
+
+allisee
+{
+	Opt1: Olması gereken şu: dışarı çıkıp oradaki insanlardan özür dilemelisin. [wait 6 sec]  [play talk]
+	Opt2: İnsanlara, onların acı çekmelerine izin verdiğini kabul etmelisin. [wait 6 sec]  [play talk]
+	Opt3: Çok yalnızdım. [wait 3 sec]  [play alone]
+}
+
+speaktothem
+{
+	Opt1: Başlangıç olarak şu nasıl: dışarı çıkıp oradaki insanlardan özür dilemelisin. [wait 6 sec]  [play talk]
+	Opt2: İnsanlara, onların acı çekmelerine izin verdiğini kabul etmelisin. [wait 6 sec]  [play talk]
+	Opt3: Çok yalnızdım. [wait 3 sec]  [play alone]
+}
+
+alone
+{
+	Opt1: Beni terk ettiğin için özür dile. [wait 5 sec]  [play talkalone]
+}
+
+
+talk
+{
+	Opt1: Hayır mı? Hiçbir şey söylemeyecek misin? [wait 6 sec]  [play speakforyou]
+	Opt2: Dikkatli düşün, sana nasıl zarar vereceğimi biliyorum. [wait 6 sec]  [play speakforyou]
+	Opt3: Korktuğun şeyi gördüm. [wait 6 sec]  [play speakforyou]
+}
+
+talkalone
+{
+	Opt1: Hayır mı? Hiç	bir şey söylemeyecek misin? [wait 6 sec]  [play apologizeforyou]
+	Opt2: Dikkatli düşün, sana nasıl zarar vereceğimi biliyorum. [wait 6 sec]  [play apologizeforyou]
+	Opt3: Korktuğun şeyi gördüm. [wait 6 sec]  [play apologizeforyou]
+}
+
+
+apologizeforyou
+{
+	Opt1: Tamam o zaman, insanlardan senin adına özür dileyeceğim. [wait 3 sec]  [play ending]
+}
+
+speakforyou
+{
+	Opt1: Tamam o zaman. Senin için onlarla konuşacağım. [wait 3 sec]  [play ending]
+}
+
+ending
+{
+	[clear]
+	[fire machine_door_open trigger]
+	[wait 1 sec]
+}
+
+
+
+
+
+
+[start]

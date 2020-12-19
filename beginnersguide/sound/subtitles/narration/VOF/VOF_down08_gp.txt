@@ -1,0 +1,2 @@
+0 6.05 Burada, Coda motorun sohbet özelliğinden ortaya çıkardığı bir tarz diyalog sistemi kullanmaya başlıyor.
+6.29 8.52 Oyun kolundaki tuşları kullanarak cevap ver.

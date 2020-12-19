@@ -1,0 +1,5 @@
+0 3.01 Ama labirentin bütün duvarları görünmez.
+3.38 9.65 Ve duvarlardan herhangi birine dokunduğunda korkunç bir parlama ve ses çıkıyor, yani bunu tecrübe etmek oldukça berbat.
+10.14 15.94 Oyun oynanmamanın ötesine de gidiyor, işin aslı oyuncuyu oynamayı denediği için küçümsüyor gibi görünüyor.
+17.26 24.08 Ama sana bölümün geri kalanını göstermek istiyorum bu yüzden devam etmek için hazır olduğunda, oyun kolunun Kullan tuşuna bas,
+24.17 25.65 ben de labirentin üzerine bir köprü koyayım.

@@ -1,0 +1,120 @@
+Text1
+{
+	[color f15822]
+	[clear]
+	[fire speak1 trigger] Merhaba. Buraya nasıl geldin? Geçmek zorunda olduğun bir bulmaca var mıydı?
+		[Wait 3 sec]
+	[fire listen1 trigger] [Play Response1]
+	
+}
+
+Response1
+{
+	[color ffcc00] Opt1: Evet, nasıl çözülür öğrenmek ister misin? [Play 1a]
+	[color ffcc11] Opt2: Hayır, hep buradaydım. [Play 2a]
+}
+
+1a
+{
+		[Wait 2 sec]
+	[fire speak1 trigger] Hayır hayır! Kapıların arasındaki boşluğu daha ilginç buluyoruz aslında. Gördün mü henüz?
+		[wait 3 sec]
+	[fire listen1 trigger] [Play 1aResponse] 
+}
+
+1aResponse
+{
+	[color ffcc00] Opt1: Kapıların arasındaki boşluk niye umrumda olsun ki? [Play final1]
+	[color ffcc11] Opt2: Aslında şimdi bahsettin ya geçerken değişik bir şeyler hissettiğimi hatırlıyorum... [Play final2]
+	[color ffcc22] Opt3: Kapıların arasında boşluk hatırlamıyorum... [Play final3]
+}
+
+2a
+{
+		[Wait 2 sec]
+	[fire speak1 trigger] Sana bir ara gidip bulmacayı görmeni öneririm. Çözülmesine gerek yok, ortasındaki boşlukta oturabilirsin.
+		[Wait 3 sec]
+	[fire listen1 trigger] [Play 2aResponse]
+}
+
+2aResponse
+{
+	[color ffcc00] Opt1: Çözersem ne olur? [Play final4]
+	[color ffcc11] Opt2: Niye boşlukta oturayım? [Play final5]
+	[color ffcc22] Opt3: Sen kimsin? [Play final6]
+}
+
+final1
+{
+		[Wait 2 sec]
+	[fire speak1 trigger] Bir sebebi var, ama anlayana kadar vakit alabilir. Bunda bir sorun yok.
+		[Wait 3 sec]
+	Yakında tekrar göreceksin.
+		[Wait 3 sec]
+	[fire openWall2 trigger] [fire listen1 trigger] [clear]
+		[wait 1 sec]
+	[fire VO_15 start]
+}
+
+final2
+{
+		[Wait 2 sec]
+	[fire speak1 trigger] Kafanı fazla yorma.
+		[Wait 3 sec]
+	Yakında tekrar göreceksin.
+		[Wait 3 sec]
+	[fire openWall2 trigger] [fire listen1 trigger] [clear]
+		[wait 1 sec]
+	[fire VO_15 start]
+}
+
+final3
+{
+		[Wait 2 sec]
+	[fire speak1 trigger] Endişelenme, yakında tekrar orayı ziyaret edeceğine eminim.
+		[Wait 3 sec]
+	Dikkat ettiğine emin ol.
+		[Wait 3 sec]
+	[fire openWall2 trigger] [fire listen1 trigger] [clear]
+		[wait 1 sec]
+	[fire VO_15 start]
+}
+
+final4
+{
+		[Wait 2 sec]
+	[fire speak1 trigger] Emin değilim. Ama şüphelerime göre, bulduğun şey oraya gitmek için feda ettiklerine değmeyecek.
+		[Wait 3 sec]
+	Yakında tekrar çözmek için fırsatın olacak.
+		[Wait 3 sec]
+	[fire openWall2 trigger] [fire listen1 trigger] [clear]
+		[wait 1 sec]
+	[fire VO_15 start]
+}
+
+final5
+{
+		[Wait 2 sec]
+	[fire speak1 trigger] Oh oldukça sakin bir yer. Başta öyle olmayabilir, ama zamanla böyle düşüneceksin.
+		[Wait 3 sec]
+	Eninde sonunda.
+		[Wait 3 sec]
+	[fire openWall2 trigger] [fire listen1 trigger] [clear]
+		[wait 1 sec]
+	[fire VO_15 start]
+}
+
+final6
+{
+		[Wait 2 sec]
+	[fire speak1 trigger] Git biraz o karanlıkta takıl. Başta hoşuna gitmeyebilir, ama zamanla alışırsın.
+		[Wait 3 sec]
+	Eninde sonunda.
+		[Wait 3 sec]
+	[fire openWall2 trigger] [fire listen1 trigger] [clear]
+		[wait 1 sec]
+	[fire VO_15 start]
+}
+
+
+[Text1]

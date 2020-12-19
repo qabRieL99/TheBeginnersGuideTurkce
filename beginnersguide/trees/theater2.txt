@@ -1,0 +1,143 @@
+#modern
+
+Go
+{
+	[color f8fc25] 
+Güzel, orada kal.
+	[wait 2 sec]
+Odanın karşısındaki kadın, sandalyedeki, profesyonel bir hayvan fotoğrafçısı.
+	[wait 1 sec]
+[fire chair_on trigger]
+	[wait 3 sec]
+Profesyonel olarak hayvanların fotoğrafını çekmek senin hayalin.
+	[wait 3 sec]
+Başarmak için, bir şey kazanmak için, ondan bir şey öğrenmek için tek şansın.
+	[wait 4 sec]
+Git haydi, ona bir şey söyle.
+	[wait 3 sec]
+[play speak1]
+}
+
+speak1
+{
+	[color ffffff] 
+	Opt1: Merhaba.[Play respondA]
+	Opt2: Kusura bakmayın, gitmem gerek.[Play respondB]
+	Opt3: Lavabo nerede acaba?[Play respondC]
+}
+
+respondA
+{
+	[color f8fc25] 
+	[wait 2 sec]
+Merhaba mı? Bu kadar mı? 
+	[wait 2 sec]
+Bu sohbet değil!
+	[wait 3 sec]
+Onunla konuşman gerek, insan olman gerek.
+	[wait 3 sec]
+Tekrar dene.
+	[wait 3 sec]
+[play speak2]
+}
+
+respondB
+{
+	[color f8fc25] 
+	[wait 2 sec]
+Gidiyor musun? Gidemezsin!
+	[wait 2 sec]
+Hayvansı beyinin karar vermesine izin veriyorsun,
+	[wait 2 sec]
+ondan büyük ol ve kadınla bir iletişim kur.
+	[wait 3 sec]
+Tekrar dene.
+	[wait 3 sec]
+[play speak2]
+}
+
+respondC
+{
+	[color f8fc25] 
+	[wait 2 sec]
+Ne yapıyorsun? 
+	[wait 2 sec]
+Konuyu saptırıyorsun, kafandan gerçekten geçeni söylemiyorsun.
+	[wait 3 sec]
+Kıvırmayı bırak da kadınla konuş.
+	[wait 3 sec]
+Tekrar dene.
+	[wait 3 sec]
+[play speak2]
+}
+
+speak2
+{
+	[color ffffff] 
+	Opt1: Şu an çok fena tırsmış durumdayım.[Play respondD]
+	Opt2: Sizden hoşlanıyorum.[Play respondD]
+	Opt3: İşte bütün umutlarım ve hayallerim:[Play respondD]
+}
+
+respondD
+{
+	[color f8fc25] 
+	[wait 2 sec]
+Hayır hayır hayır! Ona hiç bunları söylemedim! 
+	[wait 2 sec]
+Konuşmanın tonunu tamamen kaçırıyorsun, 
+	[wait 3 sec]
+Çekingendim ama ne istediğimi biliyordum, kendime güvenim vardı. 
+	[wait 3 sec]
+Bir sebepten sadece o anlıktı, ama kendime güvenim vardı. 
+	[wait 3 sec]
+Belki de ortamdan daha iyi bir hava alman gerek. Etrafımızda bir sürü insan vardı.  
+	[wait 3 sec]
+Sana çalışman için birkaç sahne malzemesi vereceğim. Bu dokununca seni sektiren koniler etraftaki insanları temsil edecek.
+	[wait 3 sec]
+[fire bouncers_on trigger]
+	[wait 6 sec]
+Şimdi tekrar konuş onla!
+	[wait 4 sec]
+[play speak3]
+}
+
+speak3
+{
+	[color ffffff] 
+	Opt1: Şu an olduğunuz yere gelmek için çok çalışmış olmalısınız.[Play respondE]
+	Opt2: Acıya dayanmayı öğrendiğinize iddaaya girerim.[Play respondE]
+	Opt3: Yapmak zorunda kaldığınız fedakarlıklar nelerdi?[Play respondE]
+}
+
+respondE
+{
+	[color f8fc25] 
+	[wait 2 sec]
+Yine batırıyorsun! 
+	[wait 2 sec]
+Eğer konuşma bu kadar çabuk kişiselleşirse onu korkutursun! 
+	[wait 3 sec]
+Bunun benim için ne kadar önemli olduğunun farkında değil misin? Bunun gibi başka bir fırsat elime asla geçmeyecek. 
+	[wait 3 sec]
+Her şey buna bağlıydı!
+	[wait 4 sec]
+[clear]
+	[wait 2 sec]
+Hm... bir şey denemek istiyorum.
+	[wait 2 sec]
+Sahneden biraz geri çekil.
+	[wait 1 sec]
+[fire hallway_on trigger]
+	[wait 3 sec]
+[clear]
+}
+
+
+
+
+[Go]
+
+
+
+

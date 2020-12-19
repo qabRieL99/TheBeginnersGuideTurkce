@@ -1,0 +1,3 @@
+0 4.86 Geliştiriciye sunulan araçlar, geliştirmenin sonunda nasıl bir işle karşılaşacaklarını şekillendirir.
+5.47 8.86 Coda'nın oyunlarındaki mimariye dikkat edersen,
+8.96 15.52 doğrusal, kutumsu koridor yapmakta çok başarılı olan bir motordan geldiğini anlayabilirsin.

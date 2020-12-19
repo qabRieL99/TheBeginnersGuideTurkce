@@ -1,0 +1,4 @@
+0 1.42 Bu bir konuşma. 
+2.12 10.12 Coda'nın istediği de bu, biriyle konuşabilmek, aklındakileri paylaşabilmek ve bilen birinden iyi tavsiye almak.
+11.5 15.22 Ama ironik olan bu senaryoda bile kendinle konuşuyorsun,
+16.04 20.42 bilmem farkında mısın ama bu oyunların hepsinde Coda kendisiyle konuşuyor.

@@ -1,0 +1,38 @@
+#modern
+
+Go
+{
+	[color 00e53b] 
+Amanın, koltuktaki yastıklar tam bir kargaşa.
+	[wait 3 sec]
+Oraya gidip onları biraz düzeltir misin? Gelen misafirleri dağınık koltuğa oturtamayız ya.
+[fire pillows_continue3 enable]	
+	[wait 0.1 sec]
+[fire pillows_reset trigger]
+	[wait 1 sec]
+}
+
+
+[Go]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

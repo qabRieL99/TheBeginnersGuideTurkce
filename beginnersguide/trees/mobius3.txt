@@ -1,0 +1,24 @@
+#modern
+
+go
+{
+	[color ffffff] 
+	Opt1: Dürüst değildim. [play continue]
+	Opt2: Nasıl söyleyeceğimi bilmiyorum. [play continue]
+	Opt3: Kolay olacağını sanmıştım. [play continue]
+}
+
+continue
+{
+[fire ending2 trigger]
+	[wait 1 sec]
+}
+
+
+[go]
+
+
+
+
+
+

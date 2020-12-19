@@ -1,0 +1,17 @@
+#modern
+
+Go
+{
+	[color 00e53b] 
+	Hazır oradayken, neden kilimi de biraz düzeltmiyorsun?
+		[wait 1 sec]
+	[fire closet_continue1 enable]
+	[wait 0.1 sec]
+	[fire closet_reset trigger]
+		[wait 1 sec]
+	Bütün küçük ayrıntılar önemli!
+}
+
+
+
+[Go]

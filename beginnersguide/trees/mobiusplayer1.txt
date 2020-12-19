@@ -1,0 +1,33 @@
+#modern
+
+go
+{
+	[color ffffff] 
+	Opt1: Yardım edin! Kör oldum! [wait 6 sec] [play line2]
+	Opt2: Hiçbir şey göremiyorum! [wait 6 sec] [play line2]
+	Opt3: Neler oluyor? [wait 6 sec] [play line2]
+}
+
+line2
+{
+	[color ffffff] 
+	Opt1: Lütfen, birini benimle konuşsun! [play line3]
+	Opt2: Lütfen, bunu nasıl çözeceğimi söyleyin. [play line3]
+	Opt3: Lütfen bunun sonsuza dek sürmesine izin vermeyin. [play line3]
+
+}
+
+line3
+{
+	[wait 1 sec]
+}
+
+
+
+[go]
+
+
+
+
+
+

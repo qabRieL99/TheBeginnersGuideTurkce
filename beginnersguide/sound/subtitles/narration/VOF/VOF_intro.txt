@@ -1,0 +1,33 @@
+0 3.17 Merhaba, The Beginner's Guide'ı oynadığın için teşekkür ederim.
+3.73 9.46 Benim adım Davey Wreden, The Stanley Parable isimli oyunu yazdım ve o oyun oldukça absürt bir hikaye anlatırken,
+9.94 16.98 bugün sana 2008 ile 2011 yılları arasında yaşanan bir dizi olayı anlatacağım.
+18 21.5 Coda isimli bir arkadaşımın yaptığı oyunlara göz atacağız.
+22.35 30.14 Şimdi, bu oyunların yeri bende büyük. Coda'yla 2009'un başlarında, kişisel birkaç sorunla boğuşurken tanıştım,
+30.49 38.33 ve onun çalışmaları beni çok güçlü bir yöne doğrulttu, yapmak istediğim yaratıcı işler için iyi bir dayanak noktası olarak düşünmüştüm.
+38.72 43 Yavaşça başlamak gerekirse, sanırım bu yaptığı ilk oyun,
+43.27 46.64 Counter-Strike oyunu için bir harita, gezinebilirsin bu arada,
+47.04 52.37 ve bu harita çoğunlukla Coda'nın üç boyutlu çevre tasarımını öğrenmesiyle ilgili.
+53.11 57.46 Ama hoşuma giden şey ise basit bir çöl kasabası estetiğinden başlamasına rağmen,
+57.84 63.6 sonraları etrafa bu renkli somut şekilleri ve imkansız bir şekilde süzülen kutular yerleştiriyor haritaya,
+64.15 68.29 ve elbette bu olay buranın gerçekten bir çöl kasabası olduğu sanrısını yok ediyor,
+68.58 76.54 ve bunun yerine bu harita yaratıcısından bir kartvizit haline, bu oyunun gerçek biri tarafından yapıldığı hatırlatıcısı haline geliyor.
+76.85 80.68 Ve insanı meraka düşürüyor: Burayı tasarlarken aklından ne geçiyordu?
+81.49 90.55 Coda'nın oyunlarında sevdiğim şey de bu. Bir oyun olarak harika olmaları değil, onun yerine tasarımcısına erişim sağlıyorlar.
+91.26 96.66 Oyunların ötesini görmeyi, bu insan evladının gerçekte kim olduğunu öğrenmek istiyorum,
+97.6 99.85 ve burada yapacağımız tam olarak bu.
+101.09 106.66 Yıl 2008, Coda bu oyunları yapmaya başlıyor ve hiçbirini yayınlamıyor.
+106.93 113.48 Oyunları internete koymuyor, sadece yapıyor ve ardından hemen terk ediyor ve oyunlar bilgisayarında öylece oturuyor.
+113.83 117.56 Ve sanırım kendisinin bir münzevi görüntüsü verdiğinin farkındaydı, 
+118.66 123.51 bir noktada şaka niyetine bilgisayarının geri dönüşüm kutusunun ismini “Önemli Oyunlar klasörü” olarak değiştirmişti.
+123.99 132.1 Anladığın gibi, bu onun çalışma tarzıydı, ortaya ne çıkardığını anlamak için bile durmayıp yaptıklarını çöpe atma eğilimindeydi,
+132.47 135.44 ta ki bir gün aniden durana kadar.
+136.24 141.18 Yıl 2011'e geldiğinde, tamam bu kadardı, son oyununu yaptı ve o zamandan beri başka oyun yapmadı.
+141.99 149.81 Ben de bu yüzden bütün yaptıklarını bir araya toplama olanağını gösterdim, çünkü oyunlarını güçlü ve ilginç buluyorum,
+150.06 154.18 ve bu derlemenin ona ulaşmasını istiyorum, belki tekrardan oyun yapmaya onu ceseratlendirir diye.
+154.46 158.28 Ve senin gibi bu oyunu oynayanlar da çalışmalarını ilginç bulursa,
+158.3 162.15 eminim bu Coda'ya daha güçlü bir cesaret mesajı gönderecektir.
+162.69 167.57 Bana bu olayda katıldığın için teşekkür ederim, burada bahsetmediğim farklı bir yorumun varsa,
+167.92 176.06 ya da benimle iletişime geçmek istersen, bana daveywreden@gmail.com adresinden posta atabilirsin.
+176.97 181.3 Tamam, giriş için bu kadar yeter, Coda'nın ilk düzgün oyununa bakalım.
+181.73 184.87 Her oyunun yüklenişinde tamamlandığı tarihi göstereceğim,
+184.87 188 bu oyun Kasım 2008'e ait. 

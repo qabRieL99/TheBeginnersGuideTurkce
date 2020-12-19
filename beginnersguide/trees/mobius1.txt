@@ -1,0 +1,32 @@
+#modern
+
+go
+{
+	[color ffffff] 
+	Opt1: Yaratıcı enerji ile patlıyorum. [play endfail]
+	Opt2: Bunları yapmaya devam edemem. [play ending]
+	Opt3: Yaptığım iş hep eğlenceli. [play endfail]
+}
+
+endfail
+{
+[fire end2 disable]
+	[wait 1 sec]
+[fire end3e trigger]
+	[wait 1 sec]
+}
+
+ending
+{
+[fire ending_relay trigger]
+	[wait 1 sec]
+}
+
+
+[go]
+
+
+
+
+
+

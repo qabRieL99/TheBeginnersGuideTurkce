@@ -1,0 +1,165 @@
+#modern
+
+go
+{
+	[color f85078] 
+Peki! Geldik işte!
+	[wait 3 sec]
+[play coda2a]
+}
+
+coda2a
+{
+	[color ffffff]
+	Opt1: Sen neyden bahsetiyorsun? [fire pres10a enable] [play game2a]
+	Opt2: Burada makine yok. [fire pres10b enable] [play game2a]
+	Opt3: Bunlar sadece duvarda yazı. [fire pres10c enable] [play game2a]
+}
+
+game2a
+{
+	[wait 2 sec]
+Güven bana, anlayacaksın.
+	[wait 2 sec]
+Yaptığın işin eğlenceli ve basit olduğunu söylemelisin.
+	[wait 2 sec]
+Oyun geliştiriciliğinin basit ve keyifli olduğunu ve sürekli severek yaptığını söylemelisin.
+	[wait 4 sec]
+[play coda2]
+}
+
+
+coda2
+{
+	Opt1: Peki... oyun yapmak basit. [fire pres11a enable] [fire bustawalls1 trigger] [play game3]
+	Opt2: Elbette... oyun yapmak kolay. [fire pres11b enable] [fire bustawalls1 trigger] [play game3]
+	Opt3: Pekala... oyun yapmak için çaba sarf etmeye gerek yok. [fire pres11c enable] [fire bustawalls1 trigger] [play game3]
+}
+
+game3
+{
+	[color db476a]
+	[wait 2 sec]
+Ahhh... çok iyi geldi.
+	[wait 2 sec]
+[play coda3]
+}
+
+coda3
+{
+	Opt1: ...ama bu doğru değildi. [fire pres12a enable] [play game4]
+	Opt2: Az önce duvarlar niye ufalandı? [fire pres12b enable] [play game4]
+	Opt3: Bunu söylediğimde neden o kadar kötü hissettim? [fire pres12c enable] [play game4]
+}
+
+game4
+{
+	[color db476a]
+	[wait 2 sec]
+Merak etme, sadece konuşmaya devam et.
+	[wait 2 sec]
+Üretmenin kolay olduğunu söylemeye devam et.
+	[wait 3 sec]
+[play coda4]
+}
+
+coda4
+{
+	Opt1: Oyun yaptığımda kendimi tamamen enerjik hissediyorum. [fire bustawalls2 trigger] [play game5]
+	Opt2: Çalışmam hakkında sürekli heyecanlı ve hevesliyim. [fire bustawalls2 trigger] [play game5]
+	Opt3: Oldukça kolay, hiçbir zaman zorlaşmıyor. [fire bustawalls2 trigger] [play game5]
+}
+
+game5
+{
+	[color c33f5e]
+	[wait 2 sec]
+Evet, muhteşem.
+	[wait 2 sec]
+Devam et.
+	[wait 2 sec]
+[play coda5]
+}
+
+coda5
+{
+	Opt1: Bir şey ürettiğimin her seferinde kendimi daha iyi hissediyorum. [fire bustawalls3 trigger] [fire bustawalls4 trigger] [play game6]
+	Opt2: Üretmeyi bırakmazsan asla kötü hissetmezsin. [fire bustawalls3 trigger] [fire bustawalls4 trigger] [play game6]
+	Opt3: Oldukça kolay bir çözüm. [fire bustawalls3 trigger] [fire bustawalls4 trigger] [play game6]
+}
+
+game6
+{
+	[color aa3752]
+	[wait 2 sec]
+Harika.
+	[wait 2 sec]
+Muhteşem hissettiriyor.
+	[wait 2 sec]
+[play coda6a]
+}
+
+coda6a
+{
+	Opt1: Bunların hiçbirinin yardımı olmuyor. [play game6a]
+	Opt2: Kusacağım. [play game6a]
+	Opt3: Lütfen! Makine nerede?! [play game6a]
+}
+
+game6a
+{
+	[wait 2 sec]
+Sabır. Bana güvenmelisin.
+	[wait 2 sec]
+İşe yarayacağına söz veriyorum.
+	[wait 2 sec]
+Lütfen, devam et.
+	[wait 2 sec]
+[play coda6]
+}
+
+coda6
+{
+	Opt1: Acı üzerimden çaba sarf etmeden esip geçiyor. [fire bustawalls5 trigger] [play game7]
+	Opt2: Çalışmalarım için yaptığım bütün fedakarlıklar hep buna değer. [fire bustawalls5 trigger] [play game7]
+	Opt3: Eninde sonunda değer. [fire bustawalls5 trigger] [play game7]
+}
+
+game7
+{
+	[color 943048]
+	[wait 2 sec]
+Evet.
+	[wait 1 sec]
+Daha fazla.
+	[wait 1 sec]
+Devam et.
+	[wait 2 sec]
+[play coda7]
+}
+
+coda7
+{
+	Opt1: Utanma yok, korkma yok, suçlu hissetme yok. [fire bustawalls6 trigger] [play game8]
+	Opt2: Çalışmalarım beni kurtaracak. [fire bustawalls6 trigger] [play game8]
+	Opt3: Buna inanıyorum, sorgusuz sualsiz. Kesinlik gemisiyim. [fire bustawalls6 trigger] [play game8]
+}
+
+game8
+{
+	[color 7d283c]
+	[wait 1 sec]
+İnanılmaz.
+	[wait 2 sec]
+İşte bu.
+	[wait 2 sec]
+Özgürüm.
+	[wait 2 sec]
+Özgürüm.
+	[wait 3 sec]
+[clear]
+}
+
+
+[go]
+

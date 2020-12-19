@@ -1,0 +1,4 @@
+0 4.76 Sürünme noktasına kadar yavaşladıktan sonra, merdivenin sonundaki kapı açılıyor.
+5.09 10.37 Peki neden, Coda bu oyunları hiç kimseye göstermiyorsa, neden kapıyı açmakla uğraşıyor?
+11.04 16.69 Eh, sana göstermek için oyunu değiştiriyorum, Enter'a bastığında eski hızına kavuşacaksın,
+16.8 18.51 böylelikle kapıdan içeri kendin girebilirsin.

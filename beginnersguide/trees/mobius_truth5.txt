@@ -1,0 +1,16 @@
+#modern
+
+go
+{
+	[color f85078]
+Devam et! Konuşmaya devam et!
+	[wait 1 sec]
+}
+
+[go]
+
+
+
+
+
+

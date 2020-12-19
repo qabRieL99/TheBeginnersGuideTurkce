@@ -1,0 +1,422 @@
+past1
+{
+[color f15822]
+Merhaba?
+[wait 2 sec]
+Kimsiniz?
+[wait 3 sec]
+[play future1]
+}
+
+future1
+{
+[color ffcc00] 
+Opt1: Hey! Ben senim! Hapishaneden kaçtıktdan sonraki sen! [fire dial1 playsound] [play past2]
+}
+
+past2
+{
+[wait 2 sec]
+Ben misin?
+[wait 2 sec]
+...
+[wait 2 sec]
+Bu hapishanede sen de mi tıkılı kaldın?
+[wait 3 sec]
+[fire 18delay trigger]
+[play future2]
+}
+
+future2
+{
+Opt1: Evet, eşya labirentiydeyim. [fire dial1 playsound] [play past3]
+Opt2: Evet, kaçış rehberindeydim. [fire dial2 playsound] [play past3]
+Opt3: Evet, ters hapishanedeydim. [fire dial3 playsound] [play past3]
+}
+
+past3
+{
+[wait 2 sec]
+Ben şu an ordayım!
+[wait 2 sec]
+Oh, nihayet buradan çıkabildiğime çok sevindim!
+[wait 3 sec]
+Kaçmak nasıl bir his?
+[wait 3 sec]
+[play future3]
+}
+
+future3
+{
+Opt1: Aslında, hapishanede olmak nasıl bir şeydi unutmaya başladım bile... [fire dial1 playsound] [play past4a]
+Opt2: Garip bir his, ama bir bakıma hapishanede olmayı özlüyorum. [fire dial2 playsound] [play past4b]
+Opt3: Aynı anda hem sabit kalıp hem de deliler gibi hareket etmek gibi bir şey. [fire dial3 playsound] [play past4c]
+}
+
+past4a
+{
+[wait 2 sec]
+Gerçekten mi? Çıkalı ne kadar oldu?
+[wait 3 sec]
+[play future4a]
+}
+
+future4a
+{
+Opt1: Yıllar! Sanki burada durup seni aramak için cesaretimi topluyordum! [fire dial1 playsound] [play past5a]
+Opt2: Sadece birkaç dakika, ama şimdiden hafızam bulanmaya başladı, sanki hiç yaşanmamış gibi. [fire dial2 playsound] [play past5b]
+}
+
+past5a
+{
+[wait 2 sec]
+Yıllar mı? Yıllardır burada değilim sanırım... 
+[wait 3 sec]
+[play future5a]
+}
+
+future5a
+{
+Opt1: Kabul etmesi çok zor, ama bu aramayı yapmak için korkuyordum. [fire dial1 playsound] [play transition]
+Opt2: Zaman senin için benimkinden farklı işliyor. [fire dial2 playsound] [play transition]
+Opt3: Belki de hapishane seni değişik bir şekilde etkiliyordur sadece. [fire dial3 playsound] [play transition]
+}
+
+past5b
+{
+[wait 2 sec]
+Ama bu çok kötü, başıma gelen en çaresiz şey!
+[wait 3 sec]
+Nasıl olur da unutabilirsin? 
+[wait 2 sec]
+[play future6]
+}
+
+future6
+{
+Opt1: Haha, söz veriyorum şu an düşündüğün kadar kötü değil. [fire dial1 playsound]  [play transition]
+Opt2: Asla unutmuyorsun, aklına getirmeyi bırakıyorsun. [fire dial2 playsound]  [play transition]
+Opt3: Bir şeye battığında her şey sonsuz gelir insana. [fire dial3 playsound]  [play transition]
+}
+
+past4b
+{
+[wait 2 sec]
+Neden? Hoşuna giden bir kısmı mı vardı?
+[wait 4 sec]
+Burada olmak sıkıcı!
+[wait 2 sec]
+[play future7]
+}
+
+future7
+{
+Opt1: Doğru, belki de bazı şeyler sadece artık elimde olmayanca hoşuma gitmeye başlıyor. [fire dial1 playsound] [play past7a]
+Opt2: Rahattı, sınırlarını biliyordum, yerimi biliyordum. [fire dial2 playsound] [play past7b]
+Opt3: Ama çıkmak için heyecanlanmıyor musun? Özgürlük düşüncesi? [fire dial3 playsound] [play past7c]
+}
+
+past7a
+{
+[wait 2 sec]
+Bu bana da oluyor galiba...
+[wait 2 sec]
+Ama sonsuza dek hep öyle mi olacak?
+[wait 2 sec]
+Bunun değişmesini isterim.
+[wait 2 sec]
+[play future8]
+}
+
+future8
+{
+Opt1: Belki? [fire dial1 playsound]  [play transition]
+Opt2: Hayır, değişmek için bir yol bulursun. [fire dial2 playsound]  [play transition]
+}
+
+past7b
+{
+[wait 2 sec]
+Bu yeterince iyi mi?
+[wait 2 sec]
+Rahat, ama insanlık dışı.
+[wait 2 sec]
+Bu şekilde yaşayamam...
+[wait 2 sec]
+[play future9]
+}
+
+future9
+{
+Opt1: Yaşamak zorunda değilsin! Sadece sabırlı olmalısın. [fire dial1 playsound]  [play transition]
+Opt2: Sınırlarının olması şu an farkına vardığından daha önemli... [fire dial2 playsound]  [play transition]
+Opt3: Biraz daha orada kalınca ne demeye çalıştığımı anlayacaksın. [fire dial3 playsound]  [play transition]
+}
+
+past7c
+{
+[wait 2 sec]
+Heyecan mı? Umrumda olan tek şey o!
+[wait 3 sec]
+Yaşamımı devam ettiren şey o!
+[wait 2 sec]
+"Heyecan" gelimesi yeterli gelmez.
+[wait 2 sec]
+[play future10]
+}
+
+future10
+{
+Opt1: Aynen! Önemsediğin bir şey var! Bekleyeceğin bir şey. [fire dial1 playsound]  [play transition]
+Opt2: Hayatında her zaman bu kadar önem verdiğin bir şey olmayacak. [fire dial2 playsound] [play transition]
+Opt3: Hevesini bastırmaya çalış biraz, bırak vücuduna sızsın. [fire dial3 playsound]  [play transition]
+}
+
+past4c
+{
+[wait 2 sec]
+Farklılık hissediyor musun?
+[wait 2 sec]
+Bazen çıktığım zaman her şey öncekinin aynısı olacakmış diye korkuyorum.
+[wait 4 sec]
+[play future11]
+}
+
+future11
+{
+Opt1: Hayır, önceden neysem gene oyum. [fire dial1 playsound] [play past11a]
+Opt2: Aslında değişiyor, o eski halimden eser yok şimdi. [fire dial2 playsound]  [play past11b]
+}
+
+past11a
+{
+[wait 2 sec]
+Olamaz, bu korkunç!
+[wait 2 sec]
+Bu aklıma gelen en kötü şey!
+[wait 2 sec]
+[play future12]
+}
+
+future12
+{
+Opt1: Merak etme! Aslında kötü bir şey değil! Söz veriyorum. [fire dial1 playsound] [play transition]
+Opt2: Eh, onun yerine başka bir şey oluyorsun. [fire dial2 playsound] [play transition]
+Opt3: Asıl sorun aslında şu an kim olduğunu bilmemen. [fire dial3 playsound] [play transition]
+}
+
+past11b
+{
+[wait 2 sec]
+Oh güzel!
+[wait 2 sec]
+Bunu duymak çok hoş.
+[wait 2 sec]
+Bu beni oldukça...mutlu hissettirdi.
+[wait 2 sec]
+[play future13]
+}
+
+future13
+{
+Opt1: Yaş buna sebep oluyor, biliyor musun? [fire dial1 playsound] [play transition]
+Opt2: Hâlâ aynı benim, ama bir şekilde değilim. Tarif etmesi zor. [fire dial2 playsound] [play transition]
+Opt3: Şu an olduğun kişinin keyfini çıkarmayı unutma, fazla uzun sürmeyecek. [fire dial3 playsound] [play transition]
+}
+
+transition
+{
+[wait 2 sec]
+Bekle, sen bensen, burada kısılıyken başka bir versiyonundan çağrı aldın mı?
+[wait 5 sec]
+[play future100]
+}
+
+future100
+{
+Opt1: Hayır, sanırım geri arayan ilk kişi benim. [fire dial1 playsound] [play past101]
+Opt2: Evet, bir çağrı aldım, öyle kaçtım zaten. [fire dial2 playsound] [play past102]
+}
+
+past101
+{
+[wait 2 sec]
+O halde bana nasıl çıkacağımı söyler misin?
+[wait 2 sec]
+Belki gelirip seni bulurum!
+[wait 2 sec]
+Ne yapmam gerekiyor?
+[wait 2 sec]
+[play future101]
+}
+
+future101
+{
+Opt1: Çıkmak için, tek yapman gereken şey samimi olmak. [fire dial1 playsound] [play sincere1]
+Opt2: Çıkmak için, şu an bana nasıl hissettiğini söylemen gerekli. [fire dial2 playsound] [play feel1]
+Opt3: Çıkmak için, benimle biraz konuş. [fire dial3 playsound] [play talk1]
+}
+
+sincere1
+{
+[wait 2 sec]
+...ne?
+[wait 2 sec]
+Bu beni serbest mi bırakacak?
+[wait 2 sec]
+O nasıl oluyor?
+[wait 2 sec]
+[play sincere3]
+}
+
+feel1
+{
+[wait 2 sec]
+...ne?
+[wait 2 sec]
+Bu beni serbest mi bırakacak?
+[wait 2 sec]
+O nasıl oluyor?
+[wait 2 sec]
+[play feel3]
+}
+
+talk1
+{
+[wait 2 sec]
+...ne?
+[wait 2 sec]
+Bu beni serbest mi bırakacak?
+[wait 2 sec]
+O nasıl oluyor?
+[wait 2 sec]
+[play talk3]
+}
+
+past102
+{
+[wait 2 sec]
+Sana ne dediler?
+[wait 2 sec]
+Çıkmak için ne yapman gerekti?
+[wait 2 sec]
+[play future102]
+}
+
+future102
+{
+Opt1: Bana tek söyledikleri samimi olmamdı. [fire dial1 playsound] [play sincere2]
+Opt2: Hapiste olmanın bana nasıl hissettirdiğini sordular. [fire dial2 playsound] [play feel2]
+Opt3: Benimle sadece bir süre konuştular. [fire dial3 playsound] [play talk2]
+}
+
+sincere2
+{
+[wait 2 sec]
+...ne?
+[wait 2 sec]
+Bu seni serbest mi bıraktı?
+[wait 2 sec]
+Nasıl oluyor o?
+[wait 2 sec]
+[play sincere3]
+}
+
+feel2
+{
+[wait 2 sec]
+...ne?
+[wait 2 sec]
+Bu seni serbest mi bıraktı?
+[wait 2 sec]
+Nasıl oluyor o?
+[wait 2 sec]
+[play feel3]
+}
+
+talk2
+{
+[wait 2 sec]
+...ne?
+[wait 2 sec]
+Bu seni serbest mi bıraktı?
+[wait 2 sec]
+Nasıl oluyor o?
+[wait 2 sec]
+[play talk3]
+}
+
+sincere3
+{
+Opt1: Dinle, çıkana kadar anlayamazsın, ama söz veriyorum işe yarıyor. [fire dial1 playsound] [play sincere4]
+Opt2: Sadece samimi ol. [fire dial2 playsound] [play sincere4]
+Opt3: Anlayacaksın. [fire dial3 playsound] [play sincere4]
+}
+
+sincere4
+{
+[wait 2 sec]
+Hangi konuda samimi olacağım? [fire 19delay trigger]
+[wait 2 sec]
+[play sincere5]
+}
+
+sincere5
+{
+Opt1: Kaçmak için bulman gereken tam olarak da bu. [fire dial1 playsound] [play ending]
+}
+
+feel3
+{
+Opt1: Dinle, çıkana kadar anlayamazsın, ama söz veriyorum işe yarıyor. [fire dial1 playsound] [play feel4]
+Opt2: Bana sadece nasıl hissetiğini söyle. [fire dial2 playsound] [play feel4]
+Opt3: Anlayacaksın. [fire dial3 playsound] [play feel4]
+}
+
+feel4
+{
+[wait 2 sec]
+Peki... Hiçbir şey değişmeyecek diye korkuyorum. [fire 19delay trigger]
+[wait 5 sec]
+[play feel5]
+}
+
+feel5
+{
+Opt1: Devam et. [fire dial1 playsound] [play ending]
+Opt2: Devam et. [fire dial2 playsound] [play ending]
+Opt3: Devam et. [fire dial3 playsound] [play ending]
+}
+
+talk3
+{
+Opt1: Dinle, çıkana kadar anlayamazsın, ama söz veriyorum işe yarıyor. [fire dial1 playsound] [play talk4]
+Opt2: Konuş benimle sadece. [fire dial2 playsound] [play talk4]
+Opt3: Anlayacaksın. [fire dial3 playsound] [play talk4]
+}
+
+talk4
+{
+[wait 2 sec]
+Tamam... konuşabilirim.
+[wait 2 sec]
+Biraz konuşalım. [fire 19delay trigger]
+[wait 2 sec`]
+Burada olacak mısın?
+[wait 2 sec]
+[play talk5]
+}
+
+talk5
+{
+Opt1: İhtiyacın olduğun sürece burada olacağım. [fire dial1 playsound] [play ending]
+}
+
+ending
+{
+[wait 4 sec]
+[clear]
+[fire theend trigger]
+}
+
+[past1]

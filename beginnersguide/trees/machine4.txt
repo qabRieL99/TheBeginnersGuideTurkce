@@ -1,0 +1,28 @@
+#modern
+
+talk1
+{
+	[color ffffff] Opt1: Coda, çalışmalarının burada öleceğine emin olacağım! [wait 3 sec] [play talk2a]
+	[color ffffff] Opt2: Coda, sonsuza kadar tanındığına emin olacağım! [wait 3 sec] [play talk2b]
+}
+
+talk2a
+{
+	Opt1: Korktuğun da bu değil mi? Değerli üretimlerin olmadan yaşamak zorunda kalmak? Kendinle başa çıkmak zorunda kalmak. [wait 3 sec] [play talk3]
+}
+
+talk2b
+{
+	Opt1: Korktuğun da bu değil mi? Başkalarının bakışlarına maruz kalmak, her gün, sonsuza kadar? Berrak bir şekilde görünmek? [wait 3 sec] [play talk3]
+}
+
+
+talk3
+{
+	[fire VO_2t trigger]
+	[wait 1 sec]
+	[clear]
+}
+
+
+[talk1]

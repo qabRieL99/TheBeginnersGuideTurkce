@@ -1,0 +1,16 @@
+#modern
+
+Go
+{
+	[color 00e53b] 
+	[fire books_continue1 enable]
+	[wait 0.1 sec]
+	[fire books_reset trigger]
+	Yatak odasının zeminine hâlâ yere dağılmış kitaplar var mı?
+		[wait 1 sec]
+	Varsa, onları rafa geri koyabilir misin?
+}
+
+
+
+[Go]

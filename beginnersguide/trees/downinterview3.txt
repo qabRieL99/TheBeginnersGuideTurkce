@@ -1,0 +1,218 @@
+﻿start
+{
+	[color f15822]
+	[fire speak1 trigger] Hey sen! Yukardan mı geldin? Orada ne vardı?
+		[Wait 5 sec]
+	[fire listen1 trigger] [Play Response1]
+	
+}
+
+Response1
+{
+	[color ffcc00] Opt1: Evet, beyazlıklarla dolu bir dünya vardı. [Play 1a]
+	[color ffcc11] Opt2: Evet, saatlerimi harcadığım koca bir hapishane vardı. [Play 1a]
+	[color ffcc22] Opt3: Evet, havada süzülen renkli bloklar vardı. [Play 1a]
+}
+
+1a
+{
+		[wait 2 sec]
+	[fire speak1 trigger] Bu yukarıdaki dünya! Oradaymışsın!
+		[Wait 3 sec]
+	Şimdi bu önemli: İki kapılı ve düğmeli bir bulmacadan geçmek zorunda kaldın mı?
+		[wait 3 sec]
+	[fire listen1 trigger] [Play 1aResponse]
+}
+
+1aResponse
+{
+	[color ffcc00] Opt1: Evet kaldım! Buraya gelmeden önce yaptığım en son şey oydu! [Play 2a]
+	[color ffcc11] Opt2: Hayır bulmaca çözdüğümü falan hatırlamıyorum. [Play 2b]
+	[color ffcc22] Opt3: Sana söylememeyi tercih ederim. Nasıl olsa, daha yeni tanıştık. [Play 2c]
+}
+
+2a
+{
+		[wait 2 sec]
+	[fire speak1 trigger] Mükemmel! Şimdi lütfen, bize nasıl çözdüğünü anlat! Çözümü anlat! Öteki tarafa nasıl geçeriz onu anlat.
+		[Wait 1 sec]
+	[fire VO_13 start]
+		[wait 2 sec]
+	[fire listen1 trigger] [Play 2aResponse]
+}
+
+2aResponse
+{
+	[color ffcc00] Opt1: Ben... nasıl çözdüğümü hatırlamıyorum. Hatırlamaya çalışıyorum, ama hatırlayamıyorum. [Play downfinala]
+	[color ffcc11] Opt2: Ben çözmedim, başka biri beni içeri aldı. [Play downfinalb]
+	[color ffcc22] Opt3: Güven bana, oraya gitmek istemezsin... [Play downfinalc]
+}
+
+2b
+{
+		[wait 2 sec]
+	[fire speak1 trigger] Hatırlamıyor musun? Peki buraya nasıl geldin?! Bulmacadan geçmek tek yol!
+		[Wait 1 sec]
+	[fire VO_13 start]
+		[wait 2 sec]
+	[fire listen1 trigger] [Play 2bResponse]
+}
+
+2bResponse
+{
+	[color ffcc00] Opt1: Girip çıkmak için başka yollar var. [Play downfinald]
+	[color ffcc11] Opt2: Buraya nasıl geldiğimi hatırlamıyorum. [Play downfinala]
+	[color ffcc22] Opt3: Bekle, evet, çözdüm! Ben bulmaca şampiyonuyum! İstediğim her yere gidebilirim! [Play downfinale]
+}
+
+
+2c
+{
+		[wait 2 sec]
+	[fire speak1 trigger] Ne? Ama... anlamıyorsun. Burada kapana kısıldık, o bulmaca tek kaçış yolumuz, onu çözmek zorundayız!
+		[Wait 2 sec]
+	[fire VO_13 start]
+		[wait 2 sec]
+	[fire listen1 trigger] [Play 2cResponse]
+}
+
+
+2cResponse
+{
+	[color ffcc00] Opt1: Çözmek istediğini sanıyorsun, ama güven bana, istemiyorsun. [Play downfinalc]
+	[color ffcc11] Opt2: Senin için tarif edeyim, orada neler var anlatayım sana. [Play downfinalf]
+	[color ffcc22] Opt3: Pekala, nasıl çözeceğinizi anlatacağım. [Play downfinalg]
+}
+
+
+
+
+
+downfinala
+{
+		[wait 2 sec]
+	[fire speak1 trigger] Daha çok düşünmelisin, lütfen! Hatırlamaya çalış!
+		[Wait 2 sec]
+	Buradan çıkmamız çok önemli, bu hapishaneden kaçmalıyız!
+		[Wait 2 sec]
+	Daha yoğun düşünemez misin?
+		[Wait 2 sec]
+	Bir şeyler olmalı.
+		[Wait 2 sec]
+	Lütfen, sona nasıl erişiriz söyle bize.
+		[Wait 4 sec]
+	[fire nextroom1 trigger] [fire listen1 trigger] [clear]
+}
+
+downfinalb
+{
+		[wait 2 sec]
+	[fire speak1 trigger] Çözmedin mi?
+		[Wait 2 sec]
+	Demek hiçbir şey öğrenmedin.
+		[Wait 2 sec]
+	Bize bu hapishaneden kaçışımızda yardımcı olamazsın.
+		[Wait 2 sec]
+	İhtiyacım olan sen değilsin.
+		[Wait 2 sec]
+	Elbette başka biri olacaktır.
+		[Wait 4 sec]
+	[fire nextroom1 trigger] [fire listen1 trigger] [clear]
+}
+
+
+downfinalc
+{
+		[wait 2 sec]
+	[fire speak1 trigger] Hayır, gitmek istiyorum! Gitmek istiyoruz! Oraya gitmeliyiz!
+		[Wait 2 sec]
+	Anlıyor musun? Dünyadaki en önemli şey bu!
+		[Wait 2 sec]
+	Bu hapishaneden kaçmalıyız!
+		[Wait 2 sec]
+	Bir son olmalı!
+		[Wait 2 sec]
+	Sana söz veriyorum, daha çok istediğim başka bir şey yok!
+		[Wait 4 sec]
+	[fire nextroom1 trigger] [fire listen1 trigger] [clear]
+}
+
+
+downfinald
+{
+		[wait 2 sec]
+	[fire speak1 trigger] Var mı? Ama lütfen, bana söylemelisin! Bize söylemelisin!
+		[Wait 2 sec]
+	Anlamıyorsun, buradan çıkmamız gerekiyor, en önemli şey bu!
+		[Wait 2 sec]
+	Bu hapishaneden çıkmalıyız!
+		[Wait 2 sec]
+	Beni duyabiliyor musun?
+		[Wait 2 sec]
+	Sona nasıl erişirim bana söyleyebilir misin?
+		[Wait 4 sec]
+	[fire nextroom1 trigger] [fire listen1 trigger] [clear]
+}
+
+
+downfinale
+{
+		[wait 2 sec]
+	[fire speak1 trigger] …
+		[Wait 2 sec]
+	Hayır çözemezsin.
+		[Wait 2 sec]
+	Diğer tarafa hiç geçmemişsin, diğer tarafta ne var hiçbir fikrin yok.
+		[Wait 2 sec]
+	Bize bu hapishaneden kaçma işinde yardımcı olamazsın.
+		[Wait 2 sec]
+	İhtiyacım olan değilsin.
+		[Wait 2 sec]
+	Elbette başka biri olacaktır.
+		[Wait 4 sec]
+	[fire nextroom1 trigger] [fire listen1 trigger] [clear]
+}
+
+
+downfinalf
+{
+		[wait 2 sec]
+	[fire speak1 trigger] Hayır, bu yeterli değil, gerçekten orada olmam lazım.
+		[Wait 2 sec]
+	Söylemekle olmaz.
+		[Wait 2 sec]
+	Kendi gözlerimle görmeliyim.
+		[Wait 2 sec]
+	Bu hapishaneden kaçmalıyım.
+		[Wait 2 sec]
+	Bir son olmalı!
+		[Wait 4 sec]
+	[fire nextroom1 trigger] [fire listen1 trigger] [clear]
+}
+
+
+downfinalg
+{
+		[wait 2 sec]
+	[fire speak1 trigger] Harika!
+		[Wait 2 sec]
+	…
+		[Wait 2 sec]
+	…
+		[Wait 2 sec]
+	Ee?
+		[Wait 2 sec]
+	Nedir? Cevap ne?
+		[Wait 2 sec]
+	Lütfen, nasıl kaçılacağını anlatmak için konuş benle! Bu hapishaneden nasıl kurtulurum söyle!
+		[Wait 2 sec]
+	Öğrenmeliyim! Dünyadaki en önemli şey bu!
+		[Wait 2 sec]
+	Bir son olmalı!
+		[Wait 4 sec]
+	[fire nextroom1 trigger] [fire listen1 trigger] [clear]
+}
+
+
+
+[start]

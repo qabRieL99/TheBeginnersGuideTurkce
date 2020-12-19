@@ -1,0 +1,74 @@
+#modern
+
+Go
+{
+	[color 00e53b] 
+...
+	[wait 2 sec]
+Az önce, dandik düşünceden bahsetmişken...
+	[wait 3 sec]
+Bana birinin evi ruhunu yansıtır gibi geliyor diyececektim.
+	[wait 3 sec]
+Sen evinle ilgilenirsen, o da seninle ilgilenir.
+	[wait 2 sec]
+Heh.
+	[wait 2 sec]
+Bunu söylerken niye bu kadar değişik hissettim bilmiyorum.
+	[wait 2 sec]
+[fire VO_5delay trigger]
+[play talk1]
+}
+
+talk1
+{
+[color ffffff]
+Opt1: Anlıyorum, yeni tanıştığın birine bunu söylemek için garip bir cümle. [play talk2]
+Opt2: Evet, haklısın, oldukça dandikmiş. [play talk2]
+Opt3: Biraz da doğruluk payı var, değil mi? [play talk2]
+}
+
+
+talk2
+{
+	[color 00e53b] 
+	[wait 2 sec]
+...
+	[wait 2.5 sec]
+Neyse.
+	[wait 1.5 sec]
+Evet.
+	[wait 1.5 sec]
+Ev temizleme.
+	[wait 1.5 sec]
+Temizlemeye devam edelim...
+	[wait 1.5 sec]
+Küvet. Lütfen küveti temizler misin?
+	[wait 2 sec]
+[fire tub_continue2 enable]
+	[wait 0.1 sec]
+Teşekkürler.[fire tub_reset trigger]
+}
+
+[Go]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

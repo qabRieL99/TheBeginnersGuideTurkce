@@ -1,0 +1,106 @@
+Go
+{
+	[color f15822] 
+	Odanın ortasına hangi eşya gider?
+		[wait 3 sec]
+	[play response1]
+}
+
+response1
+{
+	[color ffcc00] 
+	Opt1: Ses sistemi destekli bir TV nasıl gider? [Play table]
+	Opt2: Bir buzdolabı. [Play table]
+	Opt3: Yere koca bir delik aç. [Play table]
+}
+
+table
+{
+	[wait 1 sec]
+	[fire makePrison_prop_glasstable enable] [fire glass_table_boop playsound] [fire table1outline disable]
+	[clear]
+	[wait 3 sec]
+	Pekala, duvara ne gider?
+	[wait 2 sec]
+	[play response2]
+}
+
+response2
+{
+	Opt1: Kocaman bir at resmi koyalım. [Play couch]
+	Opt2: Çamaşır makinesi iyi olurdu. [Play couch]
+	Opt3: Duvara sıralanmış on tane ocak. [Play couch]
+}
+
+couch
+{
+	[wait 2 sec]
+	[fire makePrison_prop_sofa01 enable]
+	[fire couch1outline disable]
+	[fire couch_place_boop playsound]
+	[fire makePrison_prop_sofa02 enable]
+	[clear]
+	[wait 3 sec]
+	Bence bu odayı biraz aydınlatmalıyız.
+	[wait 2 sec]
+	[play response3]
+}
+
+response3
+{
+	Opt1: Tavan penceresi. Tavan boyunca pencere. Şu yavruyu açalım. [Play light]
+	Opt2: Elektrikçi gibi döşeyelim burayı. [Play light]
+	Opt3: Her köşeye canlı Tesla bobini koyalım. Evet. [Play light]
+}
+
+light
+{
+	[wait 2 sec]
+	[fire makePrison_relay_lamp trigger] [fire lampoutline disable] [fire lamp_place_boop playsound]
+	[clear]
+	[wait 3 sec]
+	Ve bir masa! Masaya ihtiyacın var!
+	[wait 2 sec]
+	[play response5]
+}
+
+response4
+{
+	Opt1: Evrak klasörü koyabiliriz. [fire VO_8 start] [Play shelves]
+	Opt2: Bu seçeneklerin hiçbirinin bir fark etmediğine eminim. [fire VO_8 start] [Play shelves]
+	Opt3: Evet! Kasa gibi! Koca tuşlu koca bir kasa! [fire VO_8 start] [Play shelves]
+}
+
+shelves
+{
+	[wait 2 sec]
+	[fire makePrison_prop_shelves enable]
+	[clear]
+	[wait 3 sec]
+	Ve bir masa! Masaya ihtiyacın var!
+	[wait 2 sec]
+	[play response5]
+}
+
+response5
+{
+	Opt1: Kimsin sen? Bunu tam olarak nereden yapıyorsun? [Play final]
+	Opt2: Tercihlerimin seçeneklerin hiçbirinin bir fark etmediğine eminim. [Play final]
+	Opt3: Masa 1935 yılında icat edildi. [Play final]
+}
+
+final
+{
+	[wait 2 sec]
+	[fire makePrison_prop_counter enable] [fire shelfoutline disable] [fire table_place_boop playsound]
+	[clear]
+	[wait 2 sec]
+	[fire makePrison_relay_expand trigger]
+	[wait 5 sec]
+	[fire VO_3 start]
+	[wait 12 sec]
+	[fire end_furniture_questions trigger]
+}
+
+
+[Go]

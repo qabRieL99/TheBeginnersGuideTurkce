@@ -1,0 +1,24 @@
+#modern
+
+go
+{
+	[color ffffff] 
+	Opt1: Yalnızım. [play continue]
+	Opt2: Tıkandım. [play continue]
+	Opt3: Daha çok çalışmalıyım. [play continue]
+}
+
+continue
+{
+[fire ending3 trigger]
+	[wait 1 sec]
+}
+
+
+[go]
+
+
+
+
+
+

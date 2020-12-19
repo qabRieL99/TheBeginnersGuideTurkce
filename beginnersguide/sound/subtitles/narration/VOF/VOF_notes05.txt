@@ -1,0 +1,3 @@
+0 4.6 Her oyununda, zorlayıcı bulduğu bir temayı keşfettikten sonra,
+4.87 12.42 Coda güvenebildiği bir çözümü olan ve tam olarak nasıl çalıştığını bildiği bu bulmacayı yerleştiriyor,
+12.81 15.73 ve bu yüzden bulmaca ona devam etmek için basit bir düzenek işlevi görüyor.

@@ -1,0 +1,16 @@
+#modern
+
+go
+{
+	[color f85078]
+Bunu durdurmanın tek yolu dürüst bir şeyler söylemek.
+	[wait 1 sec]
+}
+
+[go]
+
+
+
+
+
+

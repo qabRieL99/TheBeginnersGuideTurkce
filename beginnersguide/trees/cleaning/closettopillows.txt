@@ -1,0 +1,69 @@
+#modern
+
+Go
+{
+[color ffffff]
+	Opt1: Temizlikçi olmak hoşuna gidiyor mu? [wait 2 sec] [play cleaner01]
+	Opt2: Bu işi yapmaya nasıl başladın? [wait 2 sec] [play cleaner02]
+	Opt3: Bu kadar dağınık bir ev göreli bayağı zaman oldu... [wait 2 sec] [play cleaner03]
+}
+
+cleaner01
+{
+	[color 00e53b] 
+Eh...
+	[wait 2 sec]
+O kadar da değil.
+	[wait 2 sec]
+Çalışırken kaburgamın çukurunda bir sakinlik hissediyorum.
+	[wait 3 sec]
+Görünüşe göre ruhum başka türlü yatışmıyor.
+	[wait 2 sec]
+Sanırım bu da en önemli şey zaten!
+	[wait 2 sec]
+Ruhumun yatışması ve düzenli koltuklar. Oradaki koltuktaki yastıkları düzeltir misin?
+	[wait 1 sec]
+[fire pillows_continue1 enable]
+	[wait 0.1 sec]
+[fire pillows_reset trigger]
+}
+
+cleaner02
+{
+	[color 00e53b] 
+Bir arkadaşım paraya çok ihtiyacım olduğum bir ara beni bu işe sürükledi.
+	[wait 3 sec]
+Hayatım boyunca para kazanırken hiç böyle iyi hissettiğimi sanmıyorum!
+	[wait 3 sec]
+Kendi evimi temizlemeyi hiç hoşuma gitmez, yüzleşmeye hazır olmadığım şeytanlarım olabilir.
+	[wait 3 sec]
+Oh, şeytandan bahsederken, birisi şu yastıkları dağıtmış.
+	[wait 2 sec]
+Gidip o yastıkları düzeltir misin lütfen?
+[fire pillows_continue1 enable]
+	[wait 0.1 sec]
+[fire pillows_reset trigger]
+}
+
+cleaner03
+{
+	[color 00e53b] 
+Bu iş kolunda, o yargılarını oldukça hızlı bir kenara bırakıyorsun.
+	[wait 2 sec]
+Evin değil ama hayatında bir şeyin düzelmesi gerek.
+	[wait 3 sec]
+Temizlenmesi gereken hiçbir şey yok diye düşünebilirsin ama dikkatli ol, çünkü bu her şeyin temizlenmesi gerektiği anlamına gelir.
+	[wait 3 sec]
+Her neyse, benim görevim buraya biraz huzur getirmek.
+	[wait 4 sec]
+Öyle demişken, koltuktaki yastıkların canı çıkmış, onları düzeltebilir misin?
+	[wait 2 sec]
+[fire pillows_continue1 enable]
+	[wait 0.1 sec]
+[fire pillows_reset trigger]
+}
+
+
+[Go]
+
+

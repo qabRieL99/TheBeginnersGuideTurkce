@@ -1,0 +1,3 @@
+0 1.5 Pekala, sana yardımcı olayım. 
+2.04 8.55 Kapıyı açmak için dışındaki anahtara basacaksın, ardından yine aynı anahtara basıp kapı kapanmadan içeri gireceksin.
+9.02 12.97 İçerde ikinci bir anahtar göreceksin, o da ikinci kapıyı açacak.

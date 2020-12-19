@@ -1,0 +1,48 @@
+Text1
+{
+	[color f15822]
+	Orada mısın?
+		[Wait 1 sec]
+	Lütfen, bir şey söyle.
+		[Wait 1 sec]
+	Herhangi bir şey olabilir, bir şey söyle sadece!
+		[Wait 1 sec]
+	Konuş benimle! Lütfen!
+		[Wait 1 sec]
+	Konuşma konusunda niye bu kadar zorluk çekiyorsun?
+		[Wait 1 sec]
+	Konuş!
+		[Wait 0.5 sec]
+	Konuş!
+		[Wait 0.5 sec]
+	Konuş!
+		[Wait 0.5 sec]
+	Konuş!
+		[Wait 0.5 sec]
+	Konuş!
+		[Wait 0.5 sec]
+	Konuş!
+		[Wait 0.5 sec]
+	Konuş!
+		[Wait 0.5 sec]
+	Konuş!
+		[fire end trigger]
+		[Wait 0.5 sec]
+	Konuş!
+		[Wait 0.5 sec]
+	Konuş!
+		[Wait 0.5 sec]
+	Konuş!
+		[Wait 0.5 sec]
+	Konuş!
+		[Wait 0.5 sec]
+	Konuş!	
+		[Wait 0.5 sec]
+	Konuş!	
+		[Wait 0.5 sec]
+[clear]
+}
+
+
+
+[Text1]

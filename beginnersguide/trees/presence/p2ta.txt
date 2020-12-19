@@ -1,0 +1,58 @@
+#modern
+
+start
+{
+	[color f85078] 
+	[wait 2 sec]
+Pekala, sonra?
+	[wait 2 sec]
+[play p3n]
+}
+
+p3n
+{
+	[color ffffff]
+	Opt1: Şimdi ilk kapıyı kapat. [play p3fA]
+	Opt2: Şimdi ilk kapıyı aç. [play p3fB]
+	Opt3: Şimdi buradaki anahtara bas. [play p3s]
+}
+
+p3fA
+{
+	[color f85078] 
+	[wait 2 sec]
+Kapalı zaten.
+	[wait 3 sec]
+[play p3nb]
+}
+
+p3fB
+{
+	[color f85078] 
+	[wait 2 sec]
+Buradan açabileceğimi sanmıyorum.
+	[wait 3 sec]
+[play p3nb]
+}
+
+p3nb
+{
+	Opt1: O zaman ilk kapıyı kapat. [play p3fA]
+	Opt2: O zaman ilk kapıyı aç. [play p3fB]
+	Opt3: O zaman buradaki anahtara bas. [play p3s]
+}
+
+p3s
+{
+	[wait 1 sec]
+[fire door2open trigger]
+	[wait 2 sec]
+Ha! Bu çok kolaydı!
+	[wait 2 sec]
+Daha önce çözmediğime inanamıyorum.
+	[wait 1 sec]
+}
+
+
+
+[start]

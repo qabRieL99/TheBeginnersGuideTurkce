@@ -1,0 +1,59 @@
+#modern
+
+Go
+{
+	[color 00e53b] 
+	Oldukça dandik bir kişisel içgörüyü paylaşmak zorundaymışım gibi hissettim. Senin için sorun olur mu?
+		[wait 2 sec]
+	[play talk1]
+}
+
+talk1
+{
+	[color ffffff] 
+Opt1: Olabildiğince dandik olsun. [wait 2 sec] [play response1]
+Opt2: Olmaz, yaşamaya çalışırım. [wait 2 sec] [play response1]
+Opt3: Gerçekten paylaşmak zorunda mısın? [wait 2 sec] [play response3]
+}
+
+response1
+{
+	[color 00e53b] 
+	...
+		[wait 2 sec]
+	...
+		[wait 3 sec]
+	Yok...
+		[wait 2 sec]
+	Hayır, aptalcaydı, kusura bakma.
+		[wait 1 sec]
+	Salla gitsin.	
+		[wait 2 sec]
+	Hey bu bulaşıkların yıkanması gerekiyor, niye gelip halletmiyorsun?
+	[fire dishes_continue1 enable]
+	[wait 0.1 sec]	
+	[fire dishes_reset trigger]
+}
+
+
+
+response3
+{
+	[color 00e53b] 
+	Evet.
+		[wait 2 sec]
+	...
+		[wait 3 sec]
+	Hayır. Gerekmiyor. Aptalcaydı.
+		[wait 1 sec]
+	Salla gitisn.
+		[wait 2 sec]
+	Hey bu bulaşıkların yıkanması gerekiyor, niye gelip halletmiyorsun?
+	[fire dishes_continue1 enable]
+	[wait 0.1 sec]
+	[fire dishes_reset trigger]
+}
+
+
+
+[Go]

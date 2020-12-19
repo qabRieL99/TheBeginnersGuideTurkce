@@ -1,0 +1,4 @@
+0 7.72 Aha! Daha önce gördüğümüz Giriş bölümüyle bunu birleştirirsek Coda'nın oyunlarının bir şekilde bağlantılı olduğunu düşündüğünü anlıyoruz.
+8.18 14.54 Hatta merdivenler oyunu ile bulmaca oyunu bu oyun ile giriş oyunun arasında bağlantılı olabilir.
+15.18 23.31 Bütün oyunlarının bir rol oynadığı düşüncesi var aklında, bütün oyunları görene kadar kavrayamayacağımız daha derin bir anlam var,
+23.99 29.53 ve bütün oyunlarını kavrayınca o zaman geri çekilip resmin tamamının ne olduğunu anlamaya başlayabiliriz.

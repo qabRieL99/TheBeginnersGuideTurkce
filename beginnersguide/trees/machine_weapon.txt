@@ -1,0 +1,10 @@
+#modern
+
+Go
+{
+	[color ffffff] 
+	Silahını yere bırak.
+		[wait 4 sec]
+}
+
+[Go]

@@ -1,0 +1,136 @@
+#modern
+
+start
+{
+	[color f85078] 
+Bulmaca bu.
+	[wait 2 sec]
+Ne düşünüyorsun?
+	[wait 2 sec]
+[play start2]
+}
+
+start2
+{
+	[color ffffff]
+	Opt1: Hey, bunu biliyorum! [fire pres5a2 enable] [play start3]
+	Opt2: Bu bulmacayı daha önce çözdüm! [fire pres5b2 enable] [play start3]
+	Opt3: Bu çok kolay! [fire pres5c2 enable] [play start3]
+}
+
+start3
+{
+	[color f85078]
+	[wait 2 sec] 
+Oh harika!
+	[wait 2 sec]
+Nasıl çözüleceğini söyler misin?
+	[wait 2 sec]
+[play p1i]
+}
+
+p1i
+{
+	[color ffffff]
+	Opt1: Önce kapıyı kapamalısın. [play p1fA]
+	Opt2: Önce kapıyı açmalısın. [play p1s]
+	Opt3: Önce içerdeki anahtara basmalısın. [play p1fB]
+}
+
+p1fA
+{
+	[color f85078] 
+	[wait 2 sec]
+Ama kapı kapalı zaten!
+	[wait 3 sec]
+[play p1n]
+}
+
+p1fB
+{
+	[color f85078] 
+	[wait 2 sec]
+Ama içerde bile değiliz!
+	[wait 3 sec]
+[play p1n]
+}
+
+p1n
+{
+	Opt1: Önce kapıyı kapamalısın. [play p1fC]
+	Opt2: Önce kapıyı açmalısın. [play p1s]
+	Opt3: Önce içerdeki anahtara basmalısın. [play p1fD]
+}
+
+p1fC
+{
+	[color f85078] 
+	[wait 2 sec]
+Hım... kapı hâlâ kapalı.
+	[wait 3 sec]
+[play p1n]
+}
+
+p1fD
+{
+	[color f85078] 
+	[wait 2 sec]
+Hâlâ... dışarıdayız ama.
+	[wait 3 sec]
+[play p1n]
+}
+
+
+p1s
+{
+[fire door1open trigger]
+	[wait 2 sec]
+Tamam, şimdi?
+	[wait 3 sec]
+[play p2n]
+}
+
+p2n
+{
+	Opt1: Şimdi ilk kapıyı kapatmalısın. [play p2s]
+	Opt2: Şimdi ilk kapıyı açmalısın. [play p2fA]
+	Opt3: Şimdi içerdeki anahtara basmalısın. [play p2fB]
+}
+
+p2fA
+{
+	[wait 2 sec]
+Ama açık ki zaten!
+	[wait 2 sec]
+[play p2nb]
+}
+
+p2fB
+{
+	[wait 2 sec]
+Burada anahtar görmüyorum.
+	[wait 2 sec]
+[play p2nb]
+}
+
+p2nb
+{
+	Opt1: O halde, ilk kapıyı kapat. [play p2s]
+	Opt2: O halde, ilk kapıyı aç. [play p2fA]
+	Opt3: O halde, içerdeki anahtara bas. [play p2fB]
+}
+
+p2s
+{
+	[wait 0.5 sec]
+[fire door1close trigger]
+	[wait 1 sec]
+}
+
+
+
+
+
+
+
+[start]

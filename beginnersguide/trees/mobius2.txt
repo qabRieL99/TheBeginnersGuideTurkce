@@ -1,0 +1,24 @@
+#modern
+
+go
+{
+	[color ffffff] 
+	Opt1: Artık zordan geliyor. [play continue]
+	Opt2: Aklıma fikir gelmiyor. [play continue]
+	Opt3: Beni tüketiyor. [play continue]
+}
+
+continue
+{
+[fire ending1 trigger]
+	[wait 1 sec]
+}
+
+
+[go]
+
+
+
+
+
+

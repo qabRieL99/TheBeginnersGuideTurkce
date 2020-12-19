@@ -1,0 +1,31 @@
+#modern
+
+game1
+{
+	[color f85078] 
+Seni ona götürürüm, ama bir sorun var.
+	[wait 2 sec]
+Çok zor bir bulmaca tarafından korunuyor.
+	[wait 2 sec]
+Bana bulmacayı çözmemde yardımcı olursan, makineyi buluruz.
+	[wait 2 sec]
+Anlaştık mı?
+	[wait 3 sec]
+[play dialogue1]
+}
+
+dialogue1
+{
+	[color ffffff]
+	Opt1: Anlaştık. [fire block6fadeout trigger] [play transition1]
+	Opt2: Anlaştık. [fire block6fadeout trigger] [play transition1]
+	Opt3! Ne dediğimin pek önemi yok, değil mi? Eninde sonunda orada bulacağız kendimizi. Değil mi? [say2 Deal.]  [fire block6fadeout trigger] [play transition1]
+}
+
+transition1
+{
+	[wait 1 sec]
+}
+
+
+[game1]

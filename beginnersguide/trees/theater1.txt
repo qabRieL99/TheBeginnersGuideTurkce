@@ -1,0 +1,50 @@
+#modern
+
+Go
+{
+	[color f8fc25] 
+Pekala! Performans başlıyor! Yerlerinize lütfen!
+	[wait 5 sec]
+Bu sahnede, bendenizi oynayacaksınız.
+	[wait 3 sec]
+İşinin ehli kişilerin toplantısındayız.
+	[wait 3 sec]
+Öncelikle, duvara karşı yaslanarak başlayın.
+	[wait 1 sec]
+[fire wall_on trigger]
+	[wait 1 sec]
+}
+
+[Go]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

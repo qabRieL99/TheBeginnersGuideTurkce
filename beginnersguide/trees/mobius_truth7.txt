@@ -1,0 +1,16 @@
+#modern
+
+go
+{
+	[color f85078]
+İyi olacağız.
+	[wait 1 sec]
+}
+
+[go]
+
+
+
+
+
+

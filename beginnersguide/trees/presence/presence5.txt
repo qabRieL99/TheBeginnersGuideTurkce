@@ -1,0 +1,13 @@
+#modern
+
+game1
+{
+	[color f85078] 
+Mükemmel.
+	[wait 2 sec]
+Gel hadi, sana göstereyim.
+	[wait 1 sec]
+}
+
+
+[game1]

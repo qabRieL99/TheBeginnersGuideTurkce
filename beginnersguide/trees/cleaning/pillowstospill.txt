@@ -1,0 +1,16 @@
+#modern
+
+Go
+{
+	[color 00e53b] 
+	Amanın, görünüşe göre biri koltuğun oraya içecek dökmüş.
+		[wait 2 sec]
+	Hazır oradayken onu da paspaslasan?
+[fire spill_continue1 enable]
+	[wait 0.1 sec]
+[fire spill_reset trigger]
+}
+
+
+
+[Go]

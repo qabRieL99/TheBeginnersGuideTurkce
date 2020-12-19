@@ -1,0 +1,4 @@
+0 3.73 Bu oyunların tümünü yapmak için, Coda 'Source' adı verilen bir motoru kullanıyor.
+4.34 9.67 Bütün motorlar gibi, Source'un da iyi ve kötü becerdiği belirli şeyler var.
+10.21 15.34 Çok iyi başardığı şeylerden biri küçük, doğrusal koridorlar.
+15.61 23.33 Bu yüzden Coda'nın birçok oyunu geniş, düz, boş odalarda geçiyor, çünkü motorun iyi yaptığı şeylerin üzerinden gidiyor.
