@@ -1,4 +1,4 @@
-# Terraria Türkçe Çevirisi :tr:
+# The Beginner's Guide Türkçe Çevirisi :tr:
 ![enter image description here](https://cdn.steamgriddb.com/grid/d43601e8a1b7a88689e57107367b0d58.png)
 
 ## :information_source: Genel Notlar
