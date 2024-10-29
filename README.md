@@ -5,9 +5,15 @@
 The Beginner's Guide, Stanley Parable'ın yazarı Davey Wreden'den öyküsel bir video oyunu. Bir buçuk saat sürüyor ve geleneksel bir oyun mekaniği yok, amacı yok, görevi yok. Bunların yerine, anlamadığı bir şeyle çabalayan bir kişinin hikayesini anlatıyor.
 
 ## :camera: Ekran Görüntüleri
-<img src="/EkranGoruntuleri/20201219202431_1.jpg?raw=true" width=50% height=50% />
-<img src="/EkranGoruntuleri/20201219202608_1.jpg?raw=true" width=50% height=50% />
-<img src="/EkranGoruntuleri/20201219203129_1.jpg?raw=true" width=50% height=50% />
+<table>
+  <tr>
+    <td><img src="/EkranGoruntuleri/20201219202431_1.jpg?raw=true" width=%50 height=%50 /></td>
+    <td><img src="/EkranGoruntuleri/20201219202608_1.jpg?raw=true" width=%50 height=%50 /></td>
+    <td><img src="/EkranGoruntuleri/20201219203129_1.jpg?raw=true" width=%50 height=%50 /></td>
+    <!-- Eğer daha fazla görüntü varsa buraya ekleyebilirsin -->
+  </tr>
+</table>
+
 
 ## :floppy_disk: İndirme Bağlantısı
 [TheBeginnersGuide-v1.1.zip](https://github.com/qabRieL99/TheBeginnersGuideTurkce/releases)
